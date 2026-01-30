@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Generator haseł</h1>
+
+    <label>Długość hasła:</label><br>
+    <input type="number" id="length" value="10" min="4" max="20"><br><br>
+
+    <button onclick="generatePassword()">Generuj hasło</button>
+
+    <p><strong>Wygenerowane hasło:</strong></p>
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
